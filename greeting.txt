@@ -1,0 +1,5 @@
+Greeting for a new customer : 
+Welcome to the family of Radhey Emporium. We are highly delighted to see you as a member of our family. Contact us for any concern.
+
+Greeting for a customer who shopped :
+Thank you for shopping with Radhey Emporium. We hope to serve you again soon. Contact us for any concern.

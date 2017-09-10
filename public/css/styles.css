@@ -1,0 +1,89 @@
+body,
+html {
+	margin: 0px, auto;
+	padding: 0px;
+	height: 100%;
+	line-height: normal !important;
+}
+
+.panel {
+	border-color: lightgray !important;
+}
+
+.panel-heading {
+	background: lightgray !important;
+	color: black !important;
+	font-size: 17px;
+	border-color: lightgray !important;
+}
+
+.panel-body {
+	color: black;
+	text-decoration: none;
+}
+
+#panel-list {
+	border-bottom: 1px solid lightgray;
+}
+
+#panel-list:active {
+	background: lightgray !important;
+}
+
+p {
+	font-family: verdana;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+#logout:focus {
+	text-decoration: none !important;
+}
+
+.dashboard {
+	margin-top: 60px;
+}
+
+#name {
+	border: none !important;
+	border-bottom: 1px solid black !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	font-family: verdana;
+}
+
+.profile-pic {
+	height: 120px !important;
+	width: 120px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	border-radius: 99px;
+}
+
+#p-edit {
+	margin-left: 47px;
+	color: black !important;
+}
+
+#display-pic {
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+#p-edit:focus {
+	text-decoration: none;
+}
+
+.list-group-item {
+	border: none !important;
+}
+
+.list-group {
+	margin-bottom: 0px !important;
+}

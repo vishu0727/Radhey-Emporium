@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radhey Emporium</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="index.module.js"></script>
+    <script src="index.config.js"></script>
+    <script src="homeComponent/home.module.js"></script>
+    <script src="homeComponent/home.component.js"></script>
+    <script src="viewDetails/viewDetails.module.js"></script>
+    <script src="viewDetails/viewDetails.component.js"></script>
+    <script src="addDetails/addDetails.module.js"></script>
+    <script src="addDetails/addDetails.component.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ng-app="emporiumApp">
+    <div class="container">
+        <div class="row dashboard">
+            <div class="col-md-3 col-sm-4" ng-app="panelApp">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <a href="/" style="text-decoration:none">
+                            <p>Radhey Emporium</p>
+                        </a>
+                    </div>
+                    <a href="#!/addDetails">
+                        <div class="panel-body" id="panel-list">
+                            <p>Add Customer Details</p>
+                        </div>
+                    </a>
+                    <a href="#!/viewDetails">
+                        <div class="panel-body" id="panel-list">
+                            <p>View Customer Details</p>
+                        </div>
+                    </a>
+                    <a href="http://site2sms.com/login.asp" target="_blank">
+                        <div class="panel-body" id="panel-list">
+                            <p>Send SMS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8" id="details">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <p>Details</p>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-10 col-sm-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-1">
+                                <div class="form-group dash-form">
+                                    <div ng-view></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

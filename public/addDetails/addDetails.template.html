@@ -1,0 +1,26 @@
+<form action="/submitDetails" method="POST">
+    <div class="form-group dash-form">
+        <h4>Add Customer Details : </h4>
+        <br/>
+        <input type="text" class="form-control" name="name" ng-model="$ctrl.name" value="" placeholder="Name" autofocus required>
+        <br>
+        <input type="number" class="form-control" name="contact" ng-model="$ctrl.contact" value="" placeholder="Contact" required>
+        <br>
+        <input type="email" class="form-control" name="email" ng-model="$ctrl.email" value="" placeholder="Email" autocomplete="off">
+        <br>
+        <h4>Add Products Details : </h4>
+        <br/>
+        <div id="addDetails">
+            <input type="text" class="form-control" name="product" ng-model="$ctrl.productName" value="" placeholder="Product Name" required>
+            <br>
+            <input type="text" class="form-control" name="price" ng-model="$ctrl.price" value="" placeholder="Price" required>
+            <br>
+            <input type="text" class="form-control" name="company" ng-model="$ctrl.companyName" value="" placeholder="Company Name" required>
+            <br>
+            <input type="text" class="form-control" name="barCode" ng-model="$ctrl.barcode" value="" placeholder="Bar Code">
+        </div>
+        <br/>
+        <!-- <button type="button" id="add" class="btn btn-primary" ng-click="$ctrl.addProduct()">Add New Product</button> -->
+        <button type="submit" id="save" class="btn btn-primary">Save Details</button>
+    </div>
+</form>
